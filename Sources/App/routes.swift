@@ -16,7 +16,8 @@ func routes(_ app: Application) throws {
         return "Hello, world! \(id)"
     }
 
-    app.get("RbAcFqHw") { req async -> Response in
+/*    app.get("RbAcFqHw") { req async -> Response in
         req.redirect(to: "/en/connector?id=FR*HPC*SNF001019*002")
     }
+    */
 }
