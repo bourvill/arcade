@@ -36,6 +36,6 @@ func routes(_ app: Application) throws {
     }
 
     app.get("RbAcFqHw") { req async -> Response in
-        req.redirect(to: "/en/connector?id=FR*HPC*SNF001019*002")
+        req.redirect(to: "https://pocqrcode.district-web.com/en/connector?id=FR*HPC*SNF001019*002")
     }    
 }
